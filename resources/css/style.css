@@ -249,6 +249,8 @@ a {
 }
 .nav-li:hover  {
     text-decoration: underline;
+    color: brown;
+    font-size: 1.3rem;
 }
 
 
