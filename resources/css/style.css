@@ -106,6 +106,8 @@ li a {
 
 .main-image {
     background-image: url("../images/social-club.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -216,4 +218,37 @@ a {
 .gallery-adjust {
     margin: 5px;
 }
+
+#contact{
+    background-color: black;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 50px;
+}
+.footer-menu {
+    
+    background-color: black;
+}
+.footer-menu .footer-li a:after {
+
+    content: "|";
+    color: #fff;
+    padding-right: px;
+    padding-left: 42px;
+    font-size: 18px;
+}
+.footer-li, .footer-contact {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20px;
+}
+.copy-right { 
+    line-height: 80px;
+}
+.nav-li:hover  {
+    text-decoration: underline;
+}
+
 
