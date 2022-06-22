@@ -225,7 +225,7 @@ a {
     color: aliceblue;
     text-align: center;
     font-size: 1rem;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .footer-menu {
     
@@ -252,5 +252,40 @@ a {
     color: brown;
     font-size: 1.3rem;
 }
+.form-head {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 900;
+    margin: 50px;
+    padding: 30px
+}
+#forms-container {
+    background-color: lightgray;
+   
+}
+.add-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-area {
+     border: 1px solid lightgrey;
+     margin-bottom: 30px;
+     padding: 25px;
+     margin-top: 3px;
+    
+}
+.submit-button {
+    padding: 20px;
+    color: white;
+    margin-bottom: 30px;
+    background-color: red;
+    border: 1px solid red;
+    
+}
+
+
+  
 
 

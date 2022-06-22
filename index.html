@@ -166,50 +166,63 @@
             </div>
         </div>
         <!--Gallery End-->
-<div id="forms">
-    <h1> Get in touch</h1>
-    <div class="add-details">
-        <form>
-            <div>
+        <div id="forms-container">
+            <h1 class="form-head"> Get in touch</h1>
+
+            <div class="add-details">
+                <form>
+                    <div>
+
+                        <label for="yname">Your Name</label><br>
+                        <div class="">
+                            <input type="text" id="yname" name="your-name" required style="height: 40px; width: 500px;"
+                                class="box-area">
+                        </div>
+                    </div>
+                    <div>
+
+                        <label for="email">Your Email</label><br>
+                        <input type="email" id="email" name="your-email" required style="height: 40px; width: 500px;"
+                            class="box-area">
+
+                    </div>
+
+                    <div>
+
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject" required style="height: 40px; width: 500px;"
+                            class="box-area">
+
+                    </div>
+
+
+                    <div>
+                        <label>Message (Optional)</label><br>
+                        <textarea id="message" name="enter-message" style="height: 150px; width: 500px;"
+                            class="box-area">
+                    </textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Submit" class="submit-button">
+                    </div>
+                </form>
+
+
+
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79600.12029461648!2d-0.325672083593746!3d51.43054180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487606007400ee89%3A0x8326e3ddd152cbac!2sWimbledon%20Stadium%20(Stop%20SL)!5e0!3m2!1sen!2suk!4v1655890586542!5m2!1sen!2suk"
+                    width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-        </form>
-
-        <div class="map">
-            <p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79600.12029461648!2d-0.325672083593746!3d51.43054180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487606007400ee89%3A0x8326e3ddd152cbac!2sWimbledon%20Stadium%20(Stop%20SL)!5e0!3m2!1sen!2suk!4v1655890586542!5m2!1sen!2suk" 
-                width="400" height="250" style="border:0;" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </p>
 
         </div>
-    </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
+        
     </main>
-
     <footer id="contact">
         <!-- Footer Nav Menu -->
         <nav class="sticky-nav">
@@ -222,13 +235,14 @@
             </ul>
 
         </nav>
-        
+
         <p class="copy-right">Address : 60 Wimbledon Park Road, Wimbledon, SW19 2AW | Tel: 020 8660 5448 | Email:
             wimsocialclub@btconnect.com</p><br><br>
 
         <p class="copy-right">Purley Social Club Limited, CR8 4BL. Company No. IR13894R</p>
         <!-- Footer Nav Menu End -->
     </footer>
+    
 
 </body>
 
