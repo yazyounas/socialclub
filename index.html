@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- header -->
-        <img src="./resources/images/wim-logo.JPG" class="logo">
+        <img src="./resources/images/wim-logo.JPG" alt="club logo" class="logo">
 
         <div class="num-hours">
             <div>
@@ -66,7 +66,7 @@
         </div>
         <!-- Club History Section-->
         <div id="about">
-            <div>
+            <div class="history-img">
                 <img src="./resources/images/club-history.jpg" width="400" height="500" alt="club history">
             </div>
 
@@ -97,7 +97,7 @@
             <h1 class="vanue">Vanue to Hire</h1>
             <div id="hire-club">
                 <div class="event-image">
-                    <img src="./resources/images/hire-vanue.jpg" width="600" height="300" alt="club history"> <br><br>
+                    <img src="./resources/images/hire-vanue.jpg" width="300" height="300" alt="club history"> <br><br>
                     <h3 class="year">£100 Refundable deposit</h3><br>
                     <hr><br>
                     <h2>Available For</h2><br>
@@ -126,13 +126,17 @@
                         <h3 class="time-price">£180 Members £230 Non Members</h3>
                     </div>
                 </div>
+
+                <!--Button End-->
             </div>
-            <!--Booking Vanue Button-->
-            <p class="entertainment">There is a stage for bands/singers/comedians etc to perform on and the club runs
-                entertainment nights throughout the year.</p>
-            <button class="booking-button"><a href="#contact">BOOK NOW</a></button>
+            <div>
+                <p class="entertainment-nights">There is a stage for bands/singers/comedians etc to perform on and the club
+                    runs
+                    entertainment nights throughout the year.</p>
+                <a href="#contact" class="booking-button">BOOK NOW</a>
+            </div>
         </div>
-        <!--Button End-->
+
 
 
         <!-- club Gallery Start -->
@@ -141,27 +145,27 @@
             <div class="img-gallery">
                 <div>
                     <div class="gallery-adjust"><img src="./resources/images/dart.jpg" width="400" height="500"
-                            alt="club history"></div>
+                            alt="dart Games"></div>
                     <div class="gallery-adjust"><img src="./resources/images/billard.jpg" width="400" height="500"
-                            alt="club history"></div>
-                    <div><img src="./resources/images/bowling.jpg" width="400" height="500" alt="club history"></div>
+                            alt="billiard games"></div>
+                    <div class="gallery-adjust"><img src="./resources/images/bowling.jpg" width="400" height="500" alt="club history"></div>
                 </div>
 
                 <div>
                     <div class="gallery-adjust"><img src="./resources/images/bar.jpg" width="400" height="500"
-                            alt="club history"></div>
+                            alt="club bar"></div>
                     <div class="gallery-adjust"><img src="./resources/images/hire-vanue.jpg" width="400" height="450"
-                            alt="club history"></div>
+                            alt="club hall"></div>
                     <div class="gallery-adjust"><img src="./resources/images/daily-meal.jpg" width="400" height="500"
-                            alt="club history"></div>
+                            alt="club dinning"></div>
                 </div>
 
 
                 <div>
                     <div class="gallery-adjust"><img src="./resources/images/community-hand.jpg" width="400"
-                            height="500" alt="club history"></div>
+                            height="500" alt="club community"></div>
                     <div class="gallery-adjust"><img src="./resources/images/meeting-7.jpeg" width="400" height="500"
-                            alt="club history"></div>
+                            alt="club meetings"></div>
                 </div>
             </div>
         </div>
@@ -175,14 +179,14 @@
 
                         <label for="yname">Your Name</label><br>
                         <div class="">
-                            <input type="text" id="yname" name="your-name" required style="height: 40px; width: 500px;"
+                            <input type="text" id="yname" name="your-name" required style="height: 40px; width: auto;"
                                 class="box-area">
                         </div>
                     </div>
                     <div>
 
                         <label for="email">Your Email</label><br>
-                        <input type="email" id="email" name="your-email" required style="height: 40px; width: 500px;"
+                        <input type="email" id="email" name="your-email" required style="height: 40px; width: auto;"
                             class="box-area">
 
                     </div>
@@ -190,7 +194,7 @@
                     <div>
 
                         <label for="subject">Subject</label><br>
-                        <input type="text" id="subject" name="subject" required style="height: 40px; width: 500px;"
+                        <input type="text" id="subject" name="subject" required style="height: 40px; width: auto;"
                             class="box-area">
 
                     </div>
@@ -198,7 +202,7 @@
 
                     <div>
                         <label>Message (Optional)</label><br>
-                        <textarea id="message" name="enter-message" style="height: 150px; width: 500px;"
+                        <textarea id="message" name="enter-message" style="height: 150px; width: auto;"
                             class="box-area">
                     </textarea>
                     </div>
@@ -213,7 +217,7 @@
 
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79600.12029461648!2d-0.325672083593746!3d51.43054180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487606007400ee89%3A0x8326e3ddd152cbac!2sWimbledon%20Stadium%20(Stop%20SL)!5e0!3m2!1sen!2suk!4v1655890586542!5m2!1sen!2suk"
-                    width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="auto" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
@@ -221,7 +225,7 @@
             </div>
 
         </div>
-        
+
     </main>
     <footer id="contact">
         <!-- Footer Nav Menu -->
@@ -242,7 +246,7 @@
         <p class="copy-right">Purley Social Club Limited, CR8 4BL. Company No. IR13894R</p>
         <!-- Footer Nav Menu End -->
     </footer>
-    
+
 
 </body>
 
