@@ -1,7 +1,7 @@
 body {
-     margin: 0;
-     
- 
+    margin: 0;
+
+
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,7 +59,7 @@ li {
     color: gray;
     font-size: 14px;
     line-height: 0;
-    
+
     margin-left: -20px;
     font-weight: 400;
 }
@@ -80,7 +80,7 @@ li {
     left: 0;
     width: 100%;
     z-index: 200;
-    
+
 }
 
 .nav-bar {
@@ -97,7 +97,7 @@ li {
     margin-right: 35px;
     font-size: 1.2rem;
     padding: 20px;
-    
+
 
 }
 
@@ -132,22 +132,29 @@ li a {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    margin:100px 0px;
+    margin: 100px 0px;
 }
-.club-history{
+
+.club-history {
     word-spacing: 2px;
     line-height: 35px;
- 
+    padding: 20px;
+    max-width: 600px;
+
 }
+
 .description {
     font-size: 3rem;
     font-weight: 900;
     line-height: 50px;
+
 }
+
 .year {
     color: red;
     font-weight: bold;
 }
+
 .vanue-to-hire {
     margin-top: 50px;
     text-align: center;
@@ -155,19 +162,22 @@ li a {
     font-size: xx-large;
     padding: 80px;
     font-weight: 700;
-    
-    
+
+
 }
+
 .event-image {
     /* margin-right: 50px; */
     font-size: 1.5rem;
 }
+
 #hire-club {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .hiring-condition {
     border: 1px solid white;
     background-color: white;
@@ -176,26 +186,31 @@ li a {
     padding: 30px;
     text-align: left;
 }
+
 .time-price {
     font-weight: 900;
 }
+
 .events {
     font-weight: 300;
 }
+
 .entertainment-nights {
     color: red;
     font-weight: 300;
     font-size: 1.2rem;
     padding: 30px;
 }
+
 .booking-button {
     background-color: black;
     color: white;
     font-size: 1.2rem;
-    padding:20px;
+    padding: 20px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
 a {
 
     text-decoration: none;
@@ -206,59 +221,68 @@ a {
 .booking-button:hover {
     border: 1px solid brown;
     background-color: brown;
-    
+
     color: white;
     cursor: pointer;
 }
+
 #gallery {
     text-align: center;
     font-size: 2rem;
     margin-top: 100px;
-}   
+}
 
 .img-gallery {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    
-}    
+
+}
+
 .gallery-adjust {
     margin: 5px;
 }
 
-#contact{
+#contact {
     background-color: black;
     color: aliceblue;
     text-align: center;
     font-size: 1rem;
     padding-top: 50px;
 }
+
 .footer-menu {
-    
+
     background-color: black;
     top: 0;
 }
+
 .footer-menu .footer-li a:after {
 
     content: "|";
     color: #fff;
-    
+
     padding-left: 42px;
     font-size: 18px;
 }
-.footer-li, .footer-contact {
+
+.footer-li,
+.footer-contact {
     padding-left: 0;
     padding-right: 0;
     margin-right: 20px;
 }
-.copy-right { 
+
+.copy-right {
     line-height: 80px;
 }
-.nav-li:hover  {
+
+.nav-li:hover {
     text-decoration: underline;
     color: brown;
     font-size: 1.3rem;
 }
+
 .form-head {
     font-size: 3.5rem;
     text-align: center;
@@ -266,24 +290,27 @@ a {
     margin: 50px;
     padding: 30px
 }
+
 #forms-container {
     background-color: lightgray;
-   
-   
+
+
 }
+
 .add-details {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
+
 .box-area {
-     border: 1px solid lightgrey;
-     margin-bottom: 30px;
-     padding: 25px;
-     margin-top: 3px;
-    
+    border: 1px solid lightgrey;
+    margin-bottom: 30px;
+    padding: 25px;
+    margin-top: 3px;
+
 }
 
 .submit-button {
@@ -292,65 +319,88 @@ a {
     margin-bottom: 30px;
     background-color: red;
     border: 1px solid red;
-    
+
 }
-@media only screen and (max-width: 768px) {
-body {
-    margin: 0;
-    
+
+.map {
+    height: 350px;
+    width: 500px;
 }
-.main-image {
-    width: 100%;
-}
-.sticky-nav {
-    margin-top: 10px;
-    width: 100%;
-}
-   .history-img {
-    text-align: center;
-   }
+
+@media only screen and (max-width: 854px) {
+
+    .sticky-nav {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .history-img {
+        text-align: center;
+    }
+
     #about {
         display: block;
+
     }
-    .club-history{
+
+    .club-history {
         font-size: 1rem;
         font-weight: 900;
         text-align: center;
-        margin-right: px;
+        margin-left: auto;
+        margin-right: auto;
         line-height: 22px;
-        padding: 20px;
-        
-    }   
+    }
+
     .vanue-to-hire {
         text-align: center;
         margin: auto;
 
-    } 
-   
+    }
+
     .entertainment-nights {
         display: none;
     }
+
     #hire-club {
         display: block;
-        
-        
-    }    
-    
+
+
+    }
+
     .img-gallery img {
         display: inline-block;
         width: 100%;
         margin: 0;
-    
- }
- .add-details {
-    display: block;
-    text-align: center;
- }
+
+    }
+
+    .add-details {
+        display: block;
+        text-align: center;
+    }
+
+    .map {
+        width: 400px;
+    }
 }
-    
 
-    
+@media only screen and (max-width: 480px) {
+    header {
+        display: block;
 
+    }
 
+    .nav-bar {
+        display: none;
+    }
 
-  
+    .map {
+        width: auto;
+    }
+
+    .img-gallery {
+        display: block;
+    }
+
+}
